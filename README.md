@@ -1,6 +1,6 @@
 # Barkside Bakery 🐾
 
-Hand-baked organic dog treats from Austin, TX. By locals, for locals.
+Hand-baked organic dog treats from Austin, TX. For locals by locals.
 
 ## What's here
 
