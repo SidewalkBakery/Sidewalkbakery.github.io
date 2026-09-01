@@ -4,11 +4,11 @@ Hand-baked organic dog treats from Austin, TX. By locals, for locals.
 
 ## What's here
 
-- **`index.html`** — Main landing page (Austin hippie vibes, full story)
-- **`video.html`** — QR code destination for "The Taste Test" video
-- **`card.html`** — Printable business cards (front + back with QR)
-- **`css/styles.css`** — Tie-dye backgrounds, earthy palette, animations
-- **`js/main.js`** — QR generation, scroll animations
+- **`index.html`**: Main landing page (Austin hippie vibes, full story)
+- **`video.html`**: QR code destination for "The Taste Test" video
+- **`card.html`**: Printable business cards (front + back with QR)
+- **`css/styles.css`**: Tie-dye backgrounds, earthy palette, animations
+- **`js/main.js`**: QR generation, scroll animations
 
 ## Run locally
 

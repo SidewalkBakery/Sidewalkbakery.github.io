@@ -1,4 +1,4 @@
-// Barkside Bakery — main interactions
+// Barkside Bakery: main interactions
 
 document.addEventListener('DOMContentLoaded', () => {
   generateQRCode();
