@@ -32,7 +32,7 @@ Works as static files on Netlify, Vercel, GitHub Pages, or any host. Update the 
 ## Downtown handout flow
 
 1. Print `card.html` on cardstock (double-sided if your printer supports it)
-2. Fill kraft bags with 3–6 treats
+2. Fill kraft goodie bags with treats
 3. Drop a card in each bag
 4. Find every dog downtown. Be charming. Eat a treat on camera later.
 
