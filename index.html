@@ -3,247 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barkside Bakery | Austin Dog Treats, For Locals By Locals</title>
-  <meta name="description" content="Hand-baked organic dog treats from Austin, TX. Human-grade ingredients, baked with love. Spotted downtown? That's us.">
+  <title>Sidewalk Bakery — Found, Not Ordered</title>
+  <meta name="description" content="Limited-release baked goods from Austin, TX. Small batches. Short windows. Find us outside.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=DM+Serif+Display&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
 </head>
 <body>
-  <div class="tie-dye-bg" aria-hidden="true"></div>
-  <div class="floating-paws" aria-hidden="true">
-    <span>🐾</span><span>🌻</span><span>🐾</span><span>✌️</span><span>🐾</span><span>🌵</span>
-  </div>
-
   <header class="site-header">
-    <nav class="nav">
-      <a href="#" class="logo">
-        <span class="logo-icon">🐕</span>
-        <span class="logo-text">Barkside Bakery</span>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        Sidewalk Bakery
+        <span>Austin, TX</span>
       </a>
-      <ul class="nav-links">
-        <li><a href="#story">Our Story</a></li>
-        <li><a href="#ingredients">Ingredients</a></li>
-        <li><a href="#taste-test">The Taste Test</a></li>
-        <li><a href="#find-us">Find Us</a></li>
-      </ul>
-      <a href="video.html" class="nav-cta">Watch the Video →</a>
-    </nav>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="drops.html">Drops</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="find-us.html">Find Us</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-badge">Est. Austin, TX · For Locals By Locals</div>
-      <h1 class="hero-title">
-        Treats so good,<br>
-        <span class="hero-highlight">we eat them ourselves.</span>
-      </h1>
-      <p class="hero-sub">
-        Hand-baked organic dog treats from two Austin weirdos who got tired of 
-        reading ingredient lists they couldn't pronounce. Human-grade. Dog-approved. 
-        Founder-tested <em>mid-sentence.</em>
-      </p>
-      <div class="hero-actions">
-        <a href="#taste-test" class="btn btn-primary">See the Proof</a>
-        <a href="#find-us" class="btn btn-secondary">Catch Us Downtown</a>
-      </div>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-num">100%</span>
-          <span class="stat-label">Organic</span>
+    <section class="section hero">
+      <p class="tagline">Found, Not Ordered.</p>
+      <h1 class="display-xl">Sidewalk<br>Bakery</h1>
+      <dl class="hero-meta">
+        <div>
+          <dt>Location</dt>
+          <dd>Austin, TX</dd>
         </div>
-        <div class="stat">
-          <span class="stat-num">∞</span>
-          <span class="stat-label">Love Added</span>
+        <div>
+          <dt>Format</dt>
+          <dd>Limited Release</dd>
         </div>
-        <div class="stat">
-          <span class="stat-num">0</span>
-          <span class="stat-label">Corporate BS</span>
+        <div>
+          <dt>Method</dt>
+          <dd>Find Us Outside</dd>
+        </div>
+      </dl>
+    </section>
+
+    <hr class="rule">
+
+    <section class="section section-tight" id="next-drop">
+      <p class="tagline mb-md">Next Drop</p>
+      <div class="drop-poster">
+        <div class="drop-poster-inner">
+          <div class="drop-label">
+            <span>Release 001</span>
+            <span class="mono">Batch No. 001</span>
+          </div>
+          <div class="drop-number">Drop 001</div>
+          <div class="drop-flavor">Pumpkin / Oat / Parsley</div>
+          <div class="drop-details">
+            <div class="drop-detail">
+              <div class="label">Quantity</div>
+              <div class="value">100 Boxes</div>
+            </div>
+            <div class="drop-detail">
+              <div class="label">Date</div>
+              <div class="value">Saturday</div>
+            </div>
+            <div class="drop-detail">
+              <div class="label">Time</div>
+              <div class="value">11:00 AM</div>
+            </div>
+            <div class="drop-detail">
+              <div class="label">City</div>
+              <div class="value">Austin, TX</div>
+            </div>
+          </div>
+          <div class="drop-location-hidden" id="location-reveal">
+            Location revealed at 10:30 AM
+          </div>
+          <a href="find-us.html" class="btn">Find the Drop</a>
         </div>
       </div>
     </section>
 
-    <section id="story" class="section story">
-      <div class="section-inner">
-        <div class="story-visual">
-          <div class="polaroid">
-            <div class="polaroid-img">
-              <span class="polaroid-emoji">👩‍🍳🐶👨‍🍳</span>
-            </div>
-            <p class="polaroid-caption">Us + oven + good vibes, East Side</p>
-          </div>
+    <hr class="rule">
+
+    <section class="section">
+      <div class="product-block">
+        <div>
+          <p class="tagline mb-md">The Product</p>
+          <h2 class="display-md">Three ingredients.<br>That's it.</h2>
         </div>
-        <div class="story-content">
-          <span class="section-tag">Our Story</span>
-          <h2>Born in Austin.<br>Baked with intention.</h2>
-          <p>
-            We're not a brand. We're two friends with a kitchen, a dream, and 
-            a deeply unreasonable belief that your dog deserves the same quality 
-            you'd feed yourself at the farmers market.
+        <div>
+          <ul class="ingredient-list">
+            <li><span>01</span>Pumpkin</li>
+            <li><span>02</span>Oats</li>
+            <li><span>03</span>Parsley</li>
+          </ul>
+          <p class="lead mt-md">
+            Baked in small batches in Austin. Vegan. Recognizable ingredients.
+            Handmade. Limited quantity.
           </p>
-          <p>
-            Every batch is hand-rolled, hand-cut, and hand-delivered. Literally 
-            to every person with a dog we meet downtown. Goodie bags with treats 
-            baked with love, a card with a QR code, and a whole lot of "oh my god 
-            your dog is gorgeous" energy.
-          </p>
-          <blockquote class="story-quote">
-            "Keep Austin Weird" applies to dog treats too, y'all.
-          </blockquote>
         </div>
       </div>
     </section>
 
-    <section id="ingredients" class="section ingredients">
-      <div class="section-inner centered">
-        <span class="section-tag">What's Inside</span>
-        <h2>If we wouldn't eat it,<br>your dog doesn't either.</h2>
-        <p class="section-lead">
-          Organic ingredients. No fillers. No mystery meat. No unpronounceable 
-          chemicals. Just real food, baked slow, with love. The hippie Austin way.
-        </p>
-        <ul class="ingredient-grid">
-          <li class="ingredient-card">
-            <span class="ingredient-icon">🌾</span>
-            <h3>Organic Oats</h3>
-            <p>Whole grain goodness. No pesticides. No nonsense.</p>
-          </li>
-          <li class="ingredient-card">
-            <span class="ingredient-icon">🥜</span>
-            <h3>Natural Nut Butters</h3>
-            <p>Single-ingredient. The kind you'd steal from your own pantry.</p>
-          </li>
-          <li class="ingredient-card">
-            <span class="ingredient-icon">🍯</span>
-            <h3>Raw Local Honey</h3>
-            <p>From Texas bees. Sweetened by nature, not corn syrup.</p>
-          </li>
-          <li class="ingredient-card">
-            <span class="ingredient-icon">🎃</span>
-            <h3>Real Pumpkin</h3>
-            <p>Not "pumpkin flavor." Actual pumpkin. Your vet will approve.</p>
-          </li>
-          <li class="ingredient-card">
-            <span class="ingredient-icon">🌿</span>
-            <h3>Fresh Herbs</h3>
-            <p>Parsley for fresh breath. Because kisses matter.</p>
-          </li>
-          <li class="ingredient-card">
-            <span class="ingredient-icon">💚</span>
-            <h3>Love</h3>
-            <p>Not FDA-approved. Dog-approved. That's what counts.</p>
-          </li>
-        </ul>
-        <div class="human-grade-banner">
-          <span class="banner-icon">✅</span>
-          <div>
-            <strong>Fit for Human Consumption</strong>
-            <p>That's not marketing. That's a challenge we accept daily.</p>
-          </div>
+    <hr class="rule">
+
+    <section class="section">
+      <p class="tagline mb-md">Made for people</p>
+      <h2 class="display-md mb-md">Dogs just happen to<br>lose their minds.</h2>
+      <div class="taste-grid">
+        <div class="taste-row">
+          <span class="subject">We gave one to a human.</span>
+          <span class="verdict">They liked it.</span>
+          <span class="reaction">Approved.</span>
+        </div>
+        <div class="taste-row">
+          <span class="subject">We gave one to a dog.</span>
+          <span class="verdict">They liked it considerably more.</span>
+          <span class="reaction">Unhinged.</span>
         </div>
       </div>
     </section>
 
-    <section id="taste-test" class="section taste-test">
-      <div class="section-inner">
-        <div class="taste-content">
-          <span class="section-tag">The Taste Test</span>
-          <h2>Like the McDonald's CEO<br>but we actually mean it.</h2>
-          <p>
-            Scan the QR code on our card. You'll find a video of us explaining 
-            our whole philosophy: organic ingredients, local love, why your dog 
-            deserves better.
-          </p>
-          <p>
-            About halfway through, one of us will just... start eating a treat. 
-            Not because we're performing authenticity. Because they're genuinely 
-            delicious and we forgot we were filming.
-          </p>
-          <a href="video.html" class="btn btn-primary btn-large">
-            Watch the Video 🎬
-          </a>
-        </div>
-        <div class="qr-section">
-          <div class="qr-card">
-            <div class="qr-placeholder" id="qr-code">
-              <!-- QR generated by JS -->
-            </div>
-            <p class="qr-label">Scan for the full experience</p>
-            <p class="qr-url">barksidebakery.com/video</p>
-          </div>
-          <div class="video-preview">
-            <div class="video-frame">
-              <div class="video-placeholder">
-                <span class="play-btn">▶</span>
-                <p>"...and that's why we only use organic..."</p>
-                <p class="video-moment">*crunch* "...oh wow that's actually really good"</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <hr class="rule">
 
-    <section id="find-us" class="section find-us">
-      <div class="section-inner centered">
-        <span class="section-tag">Find Us</span>
-        <h2>Downtown Austin.<br>Look for the dogs.</h2>
-        <p class="section-lead">
-          We're not in stores. We're on the street. If you've got a pup, 
-          we've probably got a bag with your name on it (metaphorically, 
-          we don't know your dog's name yet, but we'd love to).
-        </p>
-        <div class="find-us-grid">
-          <div class="find-card">
-            <span>📍</span>
-            <h3>Congress &amp; 6th</h3>
-            <p>Mornings, when the dogs are out walking</p>
-          </div>
-          <div class="find-card">
-            <span>📍</span>
-            <h3>South Congress</h3>
-            <p>Afternoons, vibes immaculate</p>
-          </div>
-          <div class="find-card">
-            <span>📍</span>
-            <h3>Lady Bird Lake Trail</h3>
-            <p>Evenings on the Riverside stretch, dogs everywhere</p>
-          </div>
-          <div class="find-card">
-            <span>📍</span>
-            <h3>Zilker / Barton Springs</h3>
-            <p>Weekends, post-swim treat energy</p>
-          </div>
-        </div>
-        <div class="bag-preview">
-          <div class="treat-bag">
-            <div class="bag-top"></div>
-            <div class="bag-body">
-              <span class="bag-logo">🐾 Barkside</span>
-              <span class="bag-count">treats baked with love</span>
-              <span class="bag-tagline">goodie bag</span>
-            </div>
-          </div>
-          <p class="bag-caption">Every bag comes with our card + QR code. We find you, or you find us.</p>
-        </div>
-      </div>
+    <section class="section text-center">
+      <p class="tagline mb-md">Stay in the loop</p>
+      <h2 class="display-md mb-md">Follow the next drop.</h2>
+      <p class="lead" style="margin: 0 auto 2rem;">Location clues. Release times. Sold-out moments.</p>
+      <a href="https://instagram.com/" class="btn btn-outline" target="_blank" rel="noopener">Follow the Next Drop</a>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div class="footer-brand">
-        <span class="logo-icon">🐕</span>
-        <span>Barkside Bakery</span>
-      </div>
-      <p class="footer-tagline">Hand-baked on the East Side · Austin, Texas · ✌️🌻🐾</p>
-      <p class="footer-fine">We find you downtown, or you find us first. Keep Austin weird. Keep your dog happy.</p>
+      <div class="footer-brand">Sidewalk Bakery</div>
+      <a href="https://instagram.com/" class="footer-social" target="_blank" rel="noopener">Instagram</a>
+      <p class="footer-note">Small batch. Short window. When it's gone, it's gone.</p>
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
