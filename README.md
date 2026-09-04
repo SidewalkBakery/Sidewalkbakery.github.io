@@ -24,7 +24,7 @@ Edit drop details in `index.html`, `drops.html`, and `find-us.html`.
 To auto-reveal a location at a set time, set `revealAt` in `js/main.js`:
 
 ```js
-const revealAt = new Date('2026-09-06T10:30:00-05:00');
+const revealAt = new Date('2026-01-01T00:00:00-06:00'); // set when drop date is locked
 ```
 
 ## Deploy
