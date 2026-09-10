@@ -31,4 +31,4 @@ const revealAt = new Date('2026-01-01T00:00:00-06:00'); // set when drop date is
 
 Static site. Works on GitHub Pages, Netlify, or Vercel.
 
-Update Instagram links when the account is live.
+Instagram: [@findsidewalk](https://www.instagram.com/findsidewalk)
