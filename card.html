@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sidewalk Bakery — Bag Card (Print)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body.print-page {
+      background: #ddd;
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    @media print {
+      body.print-page { background: white; padding: 0; }
+      .bag-card { break-inside: avoid; }
+    }
+    .print-title {
+      width: 100%;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    .bag-card {
+      width: 3.5in;
+      height: 2in;
+      background: var(--paper);
+      border: 2px solid var(--ink);
+      padding: 0.3in;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .bag-card-top {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      letter-spacing: 0.06em;
+    }
+    .bag-card-mid {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      letter-spacing: 0.08em;
+      line-height: 1.2;
+    }
+    .bag-card-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.2in;
+    }
+    .bag-card-bottom .handle {
+      font-family: var(--font-mono);
+      font-size: 0.55rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    #bag-qr {
+      width: 0.95in;
+      height: 0.95in;
+      flex-shrink: 0;
+    }
+    #bag-qr canvas { width: 100% !important; height: 100% !important; }
+  </style>
+</head>
+<body class="print-page">
+  <p class="print-title">Print on cardstock · one per sample bag</p>
+
+  <div class="bag-card">
+    <div class="bag-card-top">Sidewalk Bakery</div>
+    <div class="bag-card-mid">Liked it?<br>Find the next drop.</div>
+    <div class="bag-card-bottom">
+      <span class="handle" data-instagram-handle>@findsidewalk</span>
+      <div id="bag-qr" aria-label="QR code to sidewalkbakery.github.io"></div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

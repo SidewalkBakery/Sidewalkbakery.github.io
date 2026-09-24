@@ -1,15 +1,23 @@
 # Sidewalk Bakery
 
-Limited-release baked goods from Austin, TX.
-
-**Found, not ordered.**
+**Found, not ordered.** Limited drops from Austin, TX.
 
 ## Pages
 
-- `index.html` — Homepage + next drop
+- `index.html` — Drop 000 launch, countdown, rules
 - `drops.html` — Release archive
+- `find-us.html` — Saturday drop / Instagram location
 - `about.html` — Brand story
-- `find-us.html` — Drop location + follow CTA
+- `labeling.html` — Ingredients, allergens, Texas labeling notes
+- `card.html` — Printable bag card with QR → [sidewalkbakery.github.io](https://sidewalkbakery.github.io/)
+
+## Config
+
+Edit `js/config.js`:
+
+- `drop000Start` — countdown target (Central Time)
+- `instagramUrl` / `instagramHandle`
+- `siteUrl` — QR code destination
 
 ## Run locally
 
@@ -17,18 +25,8 @@ Limited-release baked goods from Austin, TX.
 python3 -m http.server 8080
 ```
 
-## Drop updates
-
-Edit drop details in `index.html`, `drops.html`, and `find-us.html`.
-
-To auto-reveal a location at a set time, set `revealAt` in `js/main.js`:
-
-```js
-const revealAt = new Date('2026-01-01T00:00:00-06:00'); // set when drop date is locked
-```
-
 ## Deploy
 
-Static site. Works on GitHub Pages, Netlify, or Vercel.
+Push to `sidewalk` remote → GitHub Pages at https://sidewalkbakery.github.io/
 
 Instagram: [@findsidewalk](https://www.instagram.com/findsidewalk)
